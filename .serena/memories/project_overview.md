@@ -1,0 +1,4 @@
+- Open-LLM-VTuber 是一款完全离线可运行的语音交互 AI 伴侣，结合 FastAPI+WebSocket 服务、Live2D 模型和多种 LLM/ASR/TTS 引擎。
+- 核心 Python 代码放在 `src/open_llm_vtuber/`，其中 `server.py`、`service_context.py` 与 `websocket_handler.py` 驱动 WebSocket 服务；`agent/`、`asr/`、`tts/`、`vad/`、`conversations/`、`config_manager/` 等目录封装可插拔模块。
+- 配置模版位于 `config_templates/`，角色与提示词在 `characters/`、`prompts/`；Live2D/前端资源分布在 `live2d-models/`、`avatars/`、`assets/`、`backgrounds/`，前端源码在 Git 子模块 `frontend/`。
+- 通过 `ServiceContext` 为每条 WebSocket 连接注入独立的 LLM/ASR/TTS/VAD 对象，支持多引擎组合和代理端口；`mcpp/` 按 Model Context Protocol 扩展外部工具。

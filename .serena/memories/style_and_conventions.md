@@ -1,0 +1,3 @@
+- Python 采用 4 空格缩进、类型注解和中文注释，鼓励保持函数短小（≤3 层嵌套），通过配置抽象代替硬编码。
+- 命名：模块/函数/配置键为 snake_case，类名为 PascalCase，常量全大写；配置与角色描述集中在 YAML 文件内。
+- 所有 LLM/ASR/TTS/VAD 扩展应复用现有工厂与 `ServiceContext` 注入；新增消息类型遵循 `MessageType + _handle_*` 模式并实现 `_cleanup_failed_connection`。

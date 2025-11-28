@@ -1,0 +1,3 @@
+- 修改后至少运行 `ruff check .`、`ruff format .` 与 `pre-commit run --all-files`，若涉及运行时功能需本地启动 `uv run run_server.py` 验证语音/Live2D 交互。
+- 触及配置、角色或文档时保持 `config_templates/`、`CLAUDE.md`、README/docs 同步，并提示用户运行 `uv run upgrade.py`。
+- PR 需附带：变更摘要、涉及模块、测试或验证方式（含日志/截图），以及相关 issue/讨论链接。

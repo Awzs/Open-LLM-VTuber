@@ -1,0 +1,6 @@
+- `uv sync`：安装/更新 Python 依赖（要求 3.10–3.12）。
+- `uv run run_server.py [--verbose]`：以默认/调试日志启动 FastAPI WebSocket 服务。
+- `uv run upgrade.py`：在配置模板或依赖更新后运行，保持 conf.yaml 向后兼容。
+- `ruff check .`、`ruff format .`：Ruff 静态检查与格式化。
+- `pre-commit run --all-files`：触发所有预提交钩子，与 CI 行为一致。
+- （可选）`git log --oneline -5`：快速查看现有 commit 命名风格。
