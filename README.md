@@ -1,8 +1,4 @@
-
-![](./assets/banner.cn.jpg)
-
-<h1 align="center">Open-LLM-VTuber</h1>
-<h3 align="center">培智学校“学伴”数字人部署</h3>
+<h1 align="center">培智学校“学伴”数字人部署</h1>
 
 [![license](https://img.shields.io/github/license/Awzs/Open-LLM-VTuber)](https://github.com/Awzs/Open-LLM-VTuber/blob/main/LICENSE)
 [项目主页](https://github.com/Awzs/Open-LLM-VTuber) | [问题反馈](https://github.com/Awzs/Open-LLM-VTuber/issues)
