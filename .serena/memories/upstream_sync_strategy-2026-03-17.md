@@ -1,0 +1,4 @@
+- 当前工作区对应的是 fork：`origin = https://github.com/Awzs/Open-LLM-VTuber.git`，父仓库应使用 `upstream = https://github.com/Open-LLM-VTuber/Open-LLM-VTuber.git`。
+- 与父仓库同步时，优先保留本仓库的学校场景文档与协作上下文：`README.md`、`CLAUDE.md`、`AGENTS.md`、`doc/developer_guide.md`、`.serena/memories/`。
+- `conf.yaml` 属于本地运行配置，同步上游时不要主动覆盖；若未来上游改动配置结构，优先通过 `config_templates/` 和 `upgrade.py` 对齐，再人工迁移本地设置。
+- 2026-03-17 这次同步中，代码冲突主要没有出现在 Python 逻辑，而是集中在 `README.md` 与多语言 README；上游功能更新已顺利合入，包括 FireredASR、Docker CI、依赖与锁文件刷新。

@@ -1,10 +1,13 @@
 <h1 align="center">培智学校“学伴”数字人部署</h1>
+<h3 align="center">
 
 [![license](https://img.shields.io/github/license/Awzs/Open-LLM-VTuber)](https://github.com/Awzs/Open-LLM-VTuber/blob/main/LICENSE)
-[项目主页](https://github.com/Awzs/Open-LLM-VTuber) | [问题反馈](https://github.com/Awzs/Open-LLM-VTuber/issues)
+[项目主页](https://github.com/Awzs/Open-LLM-VTuber) | [父仓库](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber) | [问题反馈](https://github.com/Awzs/Open-LLM-VTuber/issues)
 </h3>
 
-本仓库基于 [t41372/Open-LLM-VTuber](https://github.com/t41372/Open-LLM-VTuber) 二次开发，感谢原项目的开源与持续维护。我们在其基础上面向培智学校场景增加“课堂记忆”“主动发言策略”“本地化部署模板”等能力，使数字人能够安全、可靠地服务校内教学。
+本仓库基于 [Open-LLM-VTuber/Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber) 二次开发，感谢原项目的开源与持续维护。我们在其基础上面向培智学校场景增加“课堂记忆”“主动发言策略”“本地化部署模板”等能力，使数字人能够安全、可靠地服务校内教学。
+
+> **📢 上游状态同步**：父仓库已进入 v2.0 的早期讨论与规划阶段，当前仍继续维护 v1 并处理现有 bug 修复与 PR。若你需要参与上游讨论，可关注其 README 中提供的 Zulip 开发者社区与文档入口。
 
 > [常见问题文档](https://docs.qq.com/pdf/DTFZGQXdTUXhIYWRq)
 >
@@ -46,7 +49,6 @@
 
 
 ## 👀 效果演示
-
 | ![](assets/i1.jpg) | ![](assets/i2.jpg) |
 |:---:|:---:|
 | ![](assets/i3.jpg) | ![](assets/i4.jpg) |
